@@ -1,4 +1,4 @@
 # TugasDay2
 
 ![img 1](Hasil/home.png)
-![img 1](Hasil/contact.png)
+![img 2](Hasil/contact.png)
