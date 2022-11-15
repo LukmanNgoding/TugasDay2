@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E5E0DE;
+}
+
+nav {
+    background-color: #F5F3F2;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+
+
+}
+
+.welcome {
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 5%;
+    box-shadow: 1px 1px 5px;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+.btn-contact-welcome {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 13px;
+}
+
+.btn-strong {
+    text-align: justify;
+}
+
+.img-dw {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 0 60% 3px 0;
+    display: flex;
+}
+
+.div-img-profil {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197);
+    margin-bottom: 100%;
+}
+
+.img-profil {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+main {
+    width: 70%;
+    margin-left: 4%;
+}
+
+aside {
+    width: 35%;
+    margin-left: 5%;
+
+}
+
+.h2-center {
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197)
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 57.5%;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+
+textarea {
+    width: 500px;
+    height: 100px;
+    padding: 12px 20px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: auto;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 8px 0 rgb(199, 197, 197)
+}
